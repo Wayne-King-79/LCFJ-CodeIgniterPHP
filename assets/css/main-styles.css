@@ -1,0 +1,200 @@
+/* Bootstrap Cheat Sheet */
+
+
+/* .col-xs = < 768px */
+
+
+/* .col-sm = 768px to 991 px */
+
+
+/* .col-md = 992px to 1199 px */
+
+
+/* .col-lg >= 1200 px */
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.navbar ul .fa-facebook, .navbar ul .fa-twitter {
+    color: #fff !important;
+}
+
+.navbar ul .fa-facebook:hover {
+    color: #3b5998 !important;
+}
+
+.navbar ul .fa-twitter:hover {
+    color: #00aced !important;
+}
+
+a {
+    color: #4099ff;
+}
+
+.btn-primary {
+    background-color: #4099ff !important;
+    border: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    color: #4099ff !important;
+    background-color: #4099ff !important;
+    border-color: #4099ff !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-color: #4099ff !important;
+}
+
+.navbar ul {
+    float: right !important;
+}
+
+.navbar a,
+.navbar i {
+    color: #4099ff !important;
+    font-size: 140%;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.0) !important;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: #fff !important;
+    border-bottom: 3px solid #4099ff !important;
+}
+
+.home {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/office.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.main-content {
+    margin-top: 25%;
+}
+
+.main-content h1,
+.main-content p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+#jobs,
+#about,
+#contact,
+footer {
+    margin-top: 12%;
+    color: #000;
+}
+
+.data-section {
+    background-color: #fff;
+    padding-bottom: 150px;
+}
+
+.about-section {
+    background-color: #f4f4f4;
+    padding-bottom: 75px;
+}
+
+#about h2 {
+    font-size: 250%;
+}
+
+.about-section h2:after, .contact-sub-section h3:after {
+    display: block;
+    height: 2px;
+    background-color: #4099ff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.bio {
+    background-color: #fff;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    color: #000;
+}
+
+.bio-image img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.bio-text p {
+    font-size: 20px;
+}
+
+.bio-text a {
+    text-decoration: none;
+}
+
+.contact-section {
+    background-color: #fff;
+}
+
+.contact-sub-section form {
+    margin-top: 60px;
+}
+
+footer {
+    background-color: #555;
+}
+
+.footer-section {
+    padding-top: 10%;
+}
+
+.footer-section p {
+    color: #4099ff;
+    font-size: 120%;
+}
+
+@media (min-width: 768px) {
+    .home {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/office.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/office.jpg);
+    }
+    .main-content {
+        margin-top: 35%;
+    }
+    .bio-image img {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .home h1 {
+        font-size: 350%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bio-image img {
+        width: 30%;
+        height: 30%;
+    }
+    .bio-text {
+        line-height: 225%;
+        letter-spacing: 1px;
+    }
+}
